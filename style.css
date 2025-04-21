@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color: #333;
+    line-height: 1.5;
+}
+
+header{
+    background: linear-gradient(to right, #1a73e8, #e91e63);
+    color: white;
+    padding: 60px 20px 80px;
+    position: relative;
+    text-align: center;
+}
+
+.text h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.text p{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+.downloads {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Gallery{
+    padding: 60px 20px 40px;
+    background: white;
+    text-align: center;
+}
+
+.Gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+.images{
+    display: grid;
+    gap: 15px;
+    padding: 20px;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr))
+}
+
+.images img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tag-gallery{
+    padding: 40px 20px;
+    background: #fafafa;
+    text-align: center;
+}
+
+.tag-gallery h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.tags {
+    margin-bottom: 30px;
+}
+
+.tags button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    background: white;
+    color: #007bff;
+    border-radius: 500px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tags button:hover {
+    background: #007bff;
+    color: white;
+}
+
+.tagged-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.tagged-images img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
